@@ -15,8 +15,6 @@ var (
 	errMaxValue      = errors.New("Число не должно превышать 10")
 )
 
-//ошибки
-
 func process_string(str string) (string, string, string, bool, error) {
 	var l, r, s string
 	if string(str[0]) == "\"" {
